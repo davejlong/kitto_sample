@@ -1,0 +1,2 @@
+defmodule SampleDashboard do
+end

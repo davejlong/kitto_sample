@@ -1,0 +1,18 @@
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div class="widget-jira"
+           data-source="high_priority_list"
+           data-widget="List"
+           data-unordered="true"
+           data-title="High Priority Issues"
+           data-moreinfo="Blocker and Critical"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div class="widget-jira"
+           data-source="bugs_count"
+           data-widget="Number"
+           data-title="Open Bugs"></div>
+    </li>
+  </ul>
+</div>
