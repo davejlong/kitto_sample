@@ -1,0 +1,27 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$zebra-color:       rgba(255, 255, 255, 0.3);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-JiraTable styles
+// ----------------------------------------------------------------------------
+.widget-jiratable {
+  background-color: $background-color;
+
+  tbody tr td:last-child { text-align: left; }
+  tbody tr:nth-child(even) { background-color: $zebra-color; }
+
+  .priority-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .issue-key { font-size: 0.8rem; }
+
+  .more-info, .updated-at { color: $moreinfo-color; }
+}

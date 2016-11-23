@@ -11,7 +11,11 @@ defmodule APIs.Jira do
   end
 
   def issue_for_dashboard(issue) do
-    %{label: issue["fields"]["summary"], value: issue["key"]}
+    %{
+      id: issue["key"],
+      summary: issue["fields"]["summary"],
+      priority: issue["fields"]["priority"]
+    }
   end
 
   defp username, do: Application.get_env(:sample_dashboard, :jira_username)

@@ -1,7 +1,7 @@
 use Kitto.Job.DSL
 
 filters = [
-  "high_priority": "10300", # <= All open issues with critical or higher priority
+  "high_priority": "12200", # <= All open issues with critical or higher priority
   "bugs": "10100" # <= All open bugs
 ]
 
