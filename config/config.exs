@@ -21,6 +21,7 @@ config :kitto, root: Path.dirname(__DIR__), port: 4000
 
 # Use default_dashboard: "your-dashboard" to specify the dashboard to be served
 # when the root path is requested.
+config :kitto, default_dashboard: "issues"
 
 # Configures Elixir's Logger
 config :logger, :console,
