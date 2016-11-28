@@ -21,8 +21,8 @@ defmodule SampleDashboard.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:kitto, "~> 0.2.3"},
+    [{:kitto, github: "kittoframework/kitto", branch: "hooks"},
      {:httpoison, "~> 0.9.0"},
-     {:poison, "~> 2.0"}]
+     {:poison, "~> 3.0"}]
   end
 end
